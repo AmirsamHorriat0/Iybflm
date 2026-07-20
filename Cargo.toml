@@ -1,0 +1,17 @@
+[package]
+name = "power-manager"
+version = "0.1.0"
+edition = "2024"
+
+
+[lib]
+name = "power_manager"
+path = "src/lib.rs"
+
+[[bin]]
+name = "power-manager"
+path = "src/main.rs"
+
+[dependencies]
+eframe = "0.35"
+egui = "0.35"
