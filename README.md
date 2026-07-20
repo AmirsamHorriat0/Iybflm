@@ -28,3 +28,7 @@ curl -L -o iybflm https://github.com/AmirsamHorriat0/Iybflm/releases/download/v0
 chmod +x iybflm
 sudo mv iybflm /usr/local/bin/
 sudo iybflm
+```
+# References
+Additional reading on power supply sysfs
+- [Kernel Documentation](https://www.kernel.org/doc/Documentation/ABI/testing/sysfs-class-power) - Official Linux kernel documentation for power supply sysfs 
