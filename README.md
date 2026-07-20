@@ -21,7 +21,7 @@ cargo build && cargo run
 ```
 ## Or 
 ``` bash
-wget https://github.com/AmirsamHorriat0/Iybflm/releases/download/v0.1.0/power-manager -O iybflm
+curl -L -o iybflm https://github.com/AmirsamHorriat0/Iybflm/releases/download/v0.1.0/power-manager
 chmod +x iybflm
 sudo mv iybflm /usr/local/bin/
 sudo iybflm
